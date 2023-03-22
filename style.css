@@ -1,0 +1,99 @@
+body {
+    padding-top: 56px;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+.jumbotron {
+    background-color: gray;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.btn-primary {
+    background-color: #c60063;
+    border-color: #c60063;
+}
+.btn-secondary {
+    background-color: transparent;
+    border-color: #c60063;
+    color: #c60063;
+}
+#contact {
+    background-color: blanchedalmond;
+}
+
+
+/* page contact */
+
+.icon-amikom {
+    border: none;
+    display: block;
+    margin: auto;
+    height: 35%;
+    width: 25%;
+}
+.jumbotron2 {
+    background-image: url('images/bg-amikom.jpg');
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-size: cover;
+    background-position: center;
+}
+.lead {
+    background-color:darkorchid;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 15px;
+    margin: 10px 10px;
+}
+.header-title {
+    font-size: 35px;
+    padding: 10px 10px;
+    margin: 15px;
+    color: green;
+    background-color: darkorange;
+    border-radius: 10px;
+    display: inline-block;
+    
+}
+
+.international {
+    background-color:darkblue;
+    border-radius: 10px;
+    padding: 15px 15px;
+    margin: auto;
+    display: block;
+}
+.logo {
+    height: 30%;
+    width: 20%;
+    vertical-align: middle;
+    max-width: 100%;
+    border: 0;
+    box-sizing:border-box;
+}
+.left {
+    float: left;
+    display: inline;
+    margin: 25px 25px;
+    background-color: #c60063;
+}
+  
+  .top {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 100px;
+    background-color: orange;
+    max-height: fit-content;
+  }
+  
+  .img-footer {
+    /* max-width: 70%;
+    max-height: 100%; */
+    
+    margin: auto;
+    width: 30%; /* misalnya, untuk memperbesar gambar */
+    height: 100%;
+    
+    
+  }
