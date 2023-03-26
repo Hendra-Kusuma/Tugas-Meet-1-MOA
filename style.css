@@ -26,31 +26,34 @@ body {
 
 .icon-amikom {
     border: none;
-    display: block;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     margin: auto;
-    height: 35%;
-    width: 25%;
+    max-width: 20%;
+    max-height: 30%;
 }
 .jumbotron2 {
-    background-image: url('images/bg-amikom.jpg');
+    background-color: #97DEFF;
     padding-bottom: 30px;
     padding-top: 30px;
-    background-size: cover;
+    background-size:200%;
     background-position: center;
 }
 .lead {
-    background-color:darkorchid;
+    background-color:#7149C6;
     color: white;
     border-radius: 10px;
-    padding: 15px 15px;
+    padding: 10px 10px;
     margin: 10px 10px;
+    display: block;
 }
 .header-title {
     font-size: 35px;
     padding: 10px 10px;
-    margin: 15px;
-    color: green;
-    background-color: darkorange;
+    margin: 30px auto;
+    color: darkblue;
+    background-color: #FFDEB9;
     border-radius: 10px;
     display: inline-block;
     
@@ -59,8 +62,8 @@ body {
 .international {
     background-color:darkblue;
     border-radius: 10px;
-    padding: 15px 15px;
-    margin: auto;
+    padding: none;
+    margin: 5px 15px;
     display: block;
 }
 .logo {
@@ -78,22 +81,83 @@ body {
     background-color: #c60063;
 }
   
-  .top {
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height: 100px;
-    background-color: orange;
-    max-height: fit-content;
-  }
+.top {
+display:flex;
+justify-content:center;
+align-items:center;
+height: 100px;
+background-color: #FFDEB9;
+max-height: fit-content;
+}
   
-  .img-footer {
-    /* max-width: 70%;
-    max-height: 100%; */
-    
+.img-footer {
+margin: auto;
+width: 25%; 
+height: 100%;
+
+}
+
+/* Page Services */
+.page-service {
+    background-color: #C9EEFF;
+    padding: 50px;
+}
+
+.title-service {
+    font-family: 'Franklin Gothic Medium';
+    font-size:75px;
+    display: flex;
+    justify-content: center;
     margin: auto;
-    width: 30%; /* misalnya, untuk memperbesar gambar */
-    height: 100%;
+    padding: 45px;
+}
+.img-design {
+    border-radius: 40px;
+    padding: 15px 15px;
+    margin: 15px;
+    max-width: 400px;
+    max-height: 600px;
+
+}
+.service-container {
+    display: flex;
+    justify-content: center;
+}
+.detail-info{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 50px; 
+    color: #AA77FF; 
+    padding: 15px;
+    margin: 25px;
+}
+.card-detail {
+    border-radius: 40px;
+    padding: 15px 15px;
+    margin: 15px;
+    background-color: #97DEFF;
+    width: 1000px;
+    height: 600px;
     
-    
-  }
+}
+.list-detail {
+    font-family: 'Franklin Gothic Medium';
+    color:darkmagenta;
+    font-size: 50px;
+    margin: 10px 10;
+    padding: 10px 10;
+    list-style-type: none;
+}
+.container-client {
+    background-color: #CBE4DE;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 50px;
+    height: 280px;
+    padding: 20px;
+
+}
+.img-client {
+    height: 110px; 
+    width: 190px;
+}
